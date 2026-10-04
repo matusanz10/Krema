@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Krema · Yogur griego artesanal en Villa Allende, Córdoba</title>
-<meta name="description" content="Krema es yogur griego artesanal hecho en Villa Allende, Córdoba, con la receta y la textura del yogur de Grecia. Conocé nuestra historia, precios y hacé tu pedido por WhatsApp.">
+<meta name="description" content="Krema es yogur griego artesanal hecho en Villa Allende, Córdoba: sin azúcar, sin conservantes y con +45 g de proteína por pote. Conocé nuestra historia, precios y hacé tu pedido por WhatsApp.">
 <meta name="theme-color" content="#1d3faa">
 
 <!-- Vista previa al compartir el link (WhatsApp, Instagram, Facebook) -->
@@ -135,7 +135,7 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:7
 .product{background:var(--sage);padding:110px 0}
 .product .wrap{display:grid;grid-template-columns:1fr 1fr;gap:56px;align-items:center}
 .product-visual{position:relative}
-.product-circle{aspect-ratio:1;background:var(--bone);border-radius:50%;display:flex;align-items:center;justify-content:center;overflow:hidden}
+.product-circle{aspect-ratio:1;background:#f7f7f7;border-radius:50%;display:flex;align-items:center;justify-content:center;overflow:hidden}
 .product-circle img{width:100%;height:100%;object-fit:cover}
 .product-circle img.is-mascota{width:60%;height:auto;object-fit:contain}
 .sticker{position:absolute;top:2%;right:2%;width:124px;height:124px;border-radius:50%;background:var(--blue);color:var(--white);display:flex;flex-direction:column;align-items:center;justify-content:center;transform:rotate(12deg);text-align:center;line-height:1;z-index:2}
@@ -143,6 +143,10 @@ nav .wrap{display:flex;align-items:center;justify-content:space-between;height:7
 .sticker span{font-family:"Architects Daughter",cursive;font-size:13px;letter-spacing:.1em;margin-top:4px;text-transform:uppercase}
 .product-info .title{margin-bottom:22px}
 .product-info p{font-size:18px;color:#24282c;max-width:440px;margin-bottom:24px}
+.facts{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:24px;max-width:460px}
+.facts div{background:var(--bone);border-radius:18px;padding:14px 12px;text-align:center;line-height:1.15}
+.facts b{display:block;font-weight:900;font-size:30px;letter-spacing:-.03em;color:var(--blue)}
+.facts span{font-size:13px;font-weight:600;color:#2c2f33}
 .ideas{display:flex;flex-wrap:wrap;gap:10px;margin-bottom:30px}
 .ideas li{list-style:none;border:1.5px solid var(--ink);border-radius:999px;padding:6px 14px;font-size:14px;font-weight:600}
 .price-tag{display:flex;align-items:baseline;flex-wrap:wrap;gap:6px 14px;margin-bottom:30px}
@@ -273,8 +277,8 @@ footer .wrap.top{display:grid;grid-template-columns:auto 1fr auto;gap:40px;align
 
 <div class="marquee-wrap" aria-hidden="true"><div class="marquee">
   <div class="marquee-track">
-    <span>Inspirado en Grecia</span><span>Proceso artesanal</span><span>Hecho en Villa Allende</span><span>Extra cremoso</span>
-    <span>Inspirado en Grecia</span><span>Proceso artesanal</span><span>Hecho en Villa Allende</span><span>Extra cremoso</span>
+    <span>Sin azúcar</span><span>Sin conservantes</span><span>+45 g de proteína</span><span>Súper firme y cremoso</span><span>Hecho en Villa Allende</span>
+    <span>Sin azúcar</span><span>Sin conservantes</span><span>+45 g de proteína</span><span>Súper firme y cremoso</span><span>Hecho en Villa Allende</span>
   </div>
 </div></div>
 
@@ -325,7 +329,12 @@ footer .wrap.top{display:grid;grid-template-columns:auto 1fr auto;gap:40px;align
     <div class="product-info">
       <span class="kicker">El producto</span>
       <h2 class="title">Yogur griego natural.</h2>
-      <p>Espeso de verdad, suave y con el sabor del yogur que probamos en Grecia. Un pote de 350 g para disfrutar como más te guste.</p>
+      <p>Súper firme, cremoso y con el sabor del yogur que probamos en Grecia. Sin azúcar y sin conservantes: solo yogur de verdad.</p>
+      <div class="facts">
+        <div><b>+45 g</b><span>de proteína natural</span></div>
+        <div><b>0</b><span>azúcar agregada</span></div>
+        <div><b>0</b><span>conservantes</span></div>
+      </div>
       <ul class="ideas"><li>Con frutas</li><li>Con granola</li><li>Con miel</li><li>Para cocinar</li></ul>
       <div class="price-tag">
         <span class="price">$7.000</span>
